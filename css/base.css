@@ -1,0 +1,12 @@
+:root{
+  --divBorder: 2px solid rgb(137, 137, 137);
+
+  --contentBgColor: linear-gradient(to right,#e7f0e4,#ffffff);
+  --baseBgColor: #cde0c9;
+  
+  --baseBgColor1: #e0ecde;
+  --baseBgColor2: #cde0c9;
+  --baseBgColor3: #74b9a8;
+
+  --btnBgColor: linear-gradient(to right, #81beaf,#cde0c9,#e0ecde);
+}

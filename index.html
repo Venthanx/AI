@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+  <div class="w">
+    
+    <header>
+      <div class="title">SDU text-to-image</div>
+      <nav>
+        <div id="home" class="nav-active">首页</div>
+        <div id="download">下载</div>
+        <div id="user-exp">用户体验</div>
+        <div id="data-set">数据集</div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- 首页 -->
+      <div id="home-page" class="page-active">
+        <div class="content-intro">
+          <div class="main-content">内容介绍</div>
+          <button class="homebtn">TRY IT</button>
+        </div>
+        <div class="algorithm">
+          <div class="algor algorA">
+            <div class="algorA-title">算法一
+              <div class="close-btn"></div>
+            </div>
+            <div class="algorA-disc">描述</div>
+          </div>
+          <div class="algor algorB">
+            <div class="algorB-title">算法二
+              <div class="close-btn"></div>
+            </div>
+            <div class="algorB-disc">描述</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 下载 -->
+      <div id="download-page">
+        <div class="download-nav">
+          <div id="dataset-dl" class="dlnav-active">数据库下载</div>
+          <div id="essay-dl">论文下载</div>
+          <div id="model-dl">模型下载</div>
+        </div>
+        <div class="dl-contents">
+          <div class="dl-content dlct-active">
+            <div class="dlct">数据库内容1 <a href="#">下载</a></div>
+            <div class="dlct">数据库内容2 <a href="#">下载</a></div>
+            <div class="dlct">数据库内容3 <a href="#">下载</a></div>
+          </div>
+          <div class="dl-content">
+            <div class="dlct">论文内容1 <a href="#">下载</a></div>
+            <div class="dlct">论文内容2 <a href="#">下载</a></div>
+            <div class="dlct">论文内容3 <a href="#">下载</a></div>
+          </div>
+          <div class="dl-content">
+            <div class="dlct">模型内容1 <a href="#">下载</a></div>
+            <div class="dlct">模型内容2 <a href="#">下载</a></div>
+            <div class="dlct">模型内容3 <a href="#">下载</a></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 用户体验 -->
+      <div id="userexp-page">
+        <div class="input-sentence">
+          <textarea rows="8" cols="80" name="gerenxinxi" placeholder="请在此填写信息"></textarea>
+        </div>
+        <form action="接受表单内容的服务器地址" method="获取方式" enctype="编码方式" target="打开方式">
+          <select class="model-choose" name="model-group">
+            <option seleced>模型1</option>
+            <option>模型2</option>
+            <option>模型3</option>
+          </select>
+        </form>
+        <div class="modelpic"><img src="/images/pic-icon.jpg" alt=""></div>
+        
+        <button class="userexpbtn">GO</button>
+      </div>
+
+      <!-- 数据集 -->
+      <div id="data-set-page">
+        <div class="d-modules">
+          <div class="dataset-module">
+            <div class="dm-pic">
+              <img src="/images/pic-icon.jpg" alt="">
+            </div>
+            <div class="dm-name">bird</div>
+          </div>
+          <div class="dataset-module">
+            <div class="dm-pic">
+              <img src="/images/pic-icon.jpg" alt="">
+            </div>
+            <div class="dm-name">coco</div>
+          </div>
+          <div class="dataset-module">
+            <div class="dm-pic">
+              <img src="/images/pic-icon.jpg" alt="">
+            </div>
+            <div class="dm-name">propron</div>
+          </div>
+          <div class="dataset-module">
+            <div class="dm-pic">
+              <img src="/images/pic-icon.jpg" alt="">
+            </div>
+            <div class="dm-name">字体数据集</div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="js/index.js"></script>
+  </div>
+</body>
+
+</html>
